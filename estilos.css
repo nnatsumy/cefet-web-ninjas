@@ -1,0 +1,79 @@
+html, body {
+  	min-height: 100%;
+}
+
+body {
+  	margin: 0 auto;
+  	max-width: 600px;
+  	border-left: 3px double silver;
+  	border-right: 3px double silver;
+  	padding: 0 2em;
+  	background-image: linear-gradient(to bottom right, #669999, #669999, #669999);
+  	color: #000000;
+	text-align: justify;
+}
+
+#logo {
+	width: 200px;
+	display: block;
+    	margin-left: auto;
+    	margin-right: auto;
+}
+
+iframe{
+	width: 500px;
+	display: block;
+    	margin-left: auto;
+    	margin-right: auto;
+}
+
+img:not(#logo){
+	width: 500px;
+	display: block;
+    	margin-left: auto;
+    	margin-right: auto;
+}
+
+h1, h2{
+	color: #000000;
+    	font-family: "Times New Roman;
+}
+
+h1{
+	text-align:center;
+}
+
+a:link{
+	text-decoration:underline;
+}
+
+a:hover{
+	text-decoration:none;
+}
+
+a:active{
+	color:#1f1f2e;
+}
+
+a:visited{
+	color:#52527a;
+}
+
+a[href^="http"]{	
+	background-image:url("./img/globo.png");
+	background-repeat: no-repeat;
+	padding-left: 17px;
+}
+
+.nota{
+	opacity: 0.6;
+}
+
+p.passo > strong{
+	background-color: #009999;
+	font-size:25px;
+}
+
+p.passo > em{
+	font-size:25px;
+}
